@@ -330,7 +330,7 @@ namespace vrpn_client_ros
       tracker->accel_msg_.accel.angular.y = pitch;
       tracker->accel_msg_.accel.angular.z = yaw;
 
-      accel_pub->publish(tracker->accel_msg_);
+      //accel_pub->publish(tracker->accel_msg_);
     }
   }
 
